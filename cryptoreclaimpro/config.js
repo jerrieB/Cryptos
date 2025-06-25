@@ -1,3 +1,3 @@
 // config.js
 const email = "info@CryptoReclaimPro.com";
-const phone = "+1 855-574-4713";
+const phone = "+1 416-555-1234";

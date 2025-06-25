@@ -86,6 +86,41 @@
       .bg-warning-gradient {background: linear-gradient(90deg, #ffcb05 24.51%, #d18512 100%);
       }
       .bg-dark-gradient {background: linear-gradient(180deg, #190000 0, #000 100%);}
+
+
+      .modal-content {
+  background: #160000 !important;
+  color: #ffffff;
+  border-radius: 1rem;
+  padding:20px;
+}
+
+.form-control, .form-select, .input-group-text {
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.input-group-text {
+  background-color: #444;
+  color: #fff;
+}
+
+.btn-consult,
+.btn.btn-light {
+  background: #ffd700;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.btn-consult:hover,
+.btn.btn-light:hover {
+  background: #e6c200;
+}
+
    
     @media(max-width: 767px){
       .hero { text-align: center; }
