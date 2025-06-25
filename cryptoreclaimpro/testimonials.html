@@ -136,8 +136,8 @@
         <div class="col-md-3 mb-4">
           <h5 class="fw-bold">Contact Us</h5>
           <p>123 Maple Street,<br>Toronto, Ontario, Canada M5H 2N2</p>
-          <p>Email: <a href="mailto:info@CryptoReclaimPro.com" class="text-warning text-decoration-none">info@capxrecovery.ca</a></p>
-          <p>Phone: <a href="tel:+14165551234" class="text-warning text-decoration-none">+1 416-555-1234</a></p>
+       <p>Email: <a href="mailto:" id="emailLink" class="text-warning text-decoration-none"></a></p>
+          <p>Phone: <a href="tel:" id="phoneLink" class="text-warning text-decoration-none"></a></p>
         </div>
         
         <div class="col-md-3 mb-4">
@@ -177,7 +177,27 @@
     </div>
   </section>
 
+  <div class="container-fluid py-5">
+    <div class="container">
+  <div class="row justify-content-between align-items-center disclaimer-banner">
+    <div class="col-md-10">
+      <strong>Disclaimer:</strong>Cryptoreclaimpro</strong> is intended for general informational purposes only.
+      It should not be considered professional advice. By continuing to use this site, you acknowledge and agree that the
+      information is offered as-is and may not apply to your specific situation.
+    </div>
+ 
+  </div>
+</div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="config.js"></script>
+<script>
+  document.getElementById('emailLink').href = `mailto:${email}`;
+  document.getElementById('emailLink').textContent = email;
+
+  document.getElementById('phoneLink').href = `tel:${phone}`;
+  document.getElementById('phoneLink').textContent = phone;
+</script>
 </body>
 </html>
